@@ -1,5 +1,5 @@
-# {TEMPLATE_SERVICE_HYPHEN_NAME}-infrastructure
-Template generated IaC for cloud deployment on AWS
+# {TEMPLATE_SERVICE_NAME} Service Infrastructure
+Template generated IaC for cloud deployment on AWS for - {TEMPLATE_SERVICE_NAME} Service
 
 ![](logo/bh_cdk.png)
 
@@ -8,7 +8,7 @@ Template generated IaC for cloud deployment on AWS
 This directory contains a generated IaC code for AWS for the service - {TEMPLATE_SERVICE_HYPHEN_NAME}
 
 - This repo was created using builder-hub from a starter template for AWS Infrastructure.
-- For more details on the starter template, see the [project on github](https://github.com/builder-hub/starter-infrastructure).
+- For more details on the starter template, see the [project on GitHub](https://github.com/builder-hub/starter-infrastructure).
 
 AWS CDK Infrastructure package that creates:
 1) Network Layer - Multi-AZ VPC with 3 subnets (1 public and 2 private-isolated)
@@ -51,7 +51,7 @@ Download and install Homebrew:
 <details>
   <summary>Install nvm</summary>
 
-Install latest version of nvm:
+Install the latest version of nvm:
 
   ```sh
   brew install nvm
@@ -60,7 +60,7 @@ Install latest version of nvm:
 <details>
   <summary>Install any version of Node</summary>
 
-Install latest version of node:
+Install the latest version of node:
 
   ```sh
   nvm install node
@@ -123,7 +123,7 @@ To de-configure and teardown params, secrets and remaining infra in AWS:
   ./teardown.sh
   ```
 
-To cleanup the infra package:
+To clean up the infra package:
   ```sh
   ./cleanup.sh
   ```
